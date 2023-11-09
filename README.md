@@ -6,5 +6,4 @@ Mon portfolio; presentation de projet que j'ai réaliser.
 
 - HTML
 - CSS
-- PHP
 - JAVASCRIPT
