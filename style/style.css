@@ -1,0 +1,577 @@
+/* GENERAL */
+
+@font-face {
+    font-family: maPolice;
+    src: url(Beckman-Free.otf);
+}
+
+body{
+    background-color: #F5F0E1;
+    font-family: maPolice;
+    color: #1E3D59;
+}
+
+/*JS*/
+
+.display{
+  display: block;
+}
+
+.hook{
+  display: none;
+}
+
+.backgroundBtnMain{
+  background-color: #1E3D59;
+  color: #F5F0E1 !important;
+}
+
+/* ACCUEIL */
+
+#accueil{
+    text-align: center;
+    margin-top: 17vh;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#accueil p{
+    font-size: 150px;
+    margin-bottom: 0px;
+}
+
+#accueil marquee{
+    font-size: 40px;
+    background-color: #1E3D59;
+    color: #F5F0E1;
+    width: 41vw;
+    margin-left: 29vw;
+    border-radius: 30px;
+    
+}
+
+/* CORPS */
+
+#corps{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.a_corps{
+    font-size: 80px;
+    color: #1E3D59;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+#corps a:hover{
+    background-color:#1E3D59;
+    color: #F5F0E1;
+}
+
+.a_corps_open{
+  background-color:#F5F0E1;
+  color : #1E3D59;
+}
+
+.contenue{
+    background-color:#1E3D59;
+    color: #F5F0E1;
+    font-size: 25px;
+}
+
+/*PROJETS*/
+
+.svgProjets{
+    width: 5vw;
+}
+
+#projets img{
+  width: 24vw;
+  height: 24vh;
+}
+
+.projet_row{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.projet {
+  padding: 20px;
+}
+
+#go_projet{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.column {
+  width: 30vw; 
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+  color: #ffc13b;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/*projet_zoom*/
+
+#svg_Projet{
+  width: 5vw;
+  height: 5vh;
+  margin: 2em;
+}
+
+#projet_zoom{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#flex_projet{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+#g_projet{
+  margin-left: 10%;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+#d_projet{
+  display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: stretch;
+	align-content: stretch;
+}
+
+.div_projet{
+  padding: 2em;
+  width: 700px;
+}
+
+#titre1_projet{
+  font-size: 80px;
+  margin-bottom: 2vh;
+}
+
+#lien_projet{
+  text-decoration: none;
+  color: #1E3D59;
+}
+
+#lien_projet:hover{
+  color: #ffc13b;
+}
+
+.titre2_projet{
+  font-size: 45px;
+}
+
+.contenue_projet{
+  font-size: 30px;
+}
+
+#image_projet{
+  width: 35vw;
+  margin-top: 80px;
+  margin-left: 2vw;
+  border: 1px solid;
+  border-color: #ffc13b;
+}
+
+.souligne{
+  text-decoration: underline;
+  text-decoration-color: #ffc13b;
+}
+/*CONTACT*/
+
+#formulaire_contact input{
+    margin-bottom: 1vh;
+    text-align: center;
+}
+
+
+/*FOOTER*/
+
+footer{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+
+footer a{
+    width: 5vw;
+    margin-left: 47vw;
+}
+
+footer p{
+    margin-top: 2vh;
+}
+
+
+
+
+
+/*page_log*/
+
+#log{
+    text-align: center;
+    margin-top: 17vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+#log p{
+    font-size: 80px;
+    margin-bottom: 0px;
+}
+
+#log form{
+    margin-top: 10vh;
+}
+
+#log input{
+    width: 20vw;
+    background-color:#F5F0E1;
+    border:3px solid #1E3D59;
+    margin-bottom: 2vh;
+    text-align: center;
+
+}
+
+#log input:hover{
+    background-color:#1E3D59;
+    color: #F5F0E1;
+}
+
+/*backoffice*/
+
+#backoff{
+    text-align: center;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#p_backoff{
+    font-size: 80px;
+    margin-bottom: 10vh;
+}
+
+.a_backoff{
+    font-size: 80px;
+    color: #1E3D59;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#backoff a:hover{
+    background-color:#1E3D59;
+    color: #F5F0E1;
+}
+
+#flex_message{
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: stretch;
+	align-content: stretch;
+}
+.message{
+  background: gray;
+  width: 25vw;
+  margin: 1em;
+  border-radius: 10px;
+}
+
+#p_nvProjet{
+  cursor: pointer;
+  width: 35%;
+  margin-left: 32%;
+}
+
+#backoff #tab{
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 7vh;
+}
+#backoff #tab img{
+    height: 20vh;
+    width: 20vw;
+}
+
+#backoff #tab th{
+  border: solid;
+}
+
+#backoff #tab td{
+  border-left: solid;
+  border-right: solid;
+}
+
+.a_backoff_tab{
+  text-decoration: none;
+  color: #F5F0E1;
+}
+
+#formulaire_ajout_Projet input{
+    margin-bottom: 1vh;
+    text-align: center;
+}
+
+/*pages backoffice*/
+
+.page_backoff{
+  text-align: center;
+  margin-top: 17vh;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.p_page_backoff{
+  font-size: 80px;
+  margin-bottom: 0px;
+}
+
+.form_page_backoff{
+  margin-top: 10vh;
+}
+
+.input_page_backoff{
+  width: 20vw;
+  background-color:#F5F0E1;
+  border:3px solid #1E3D59;
+  margin-bottom: 2vh;
+  text-align: center;
+
+}
+
+.input_page_backoff:hover{
+  background-color:#1E3D59;
+  color: #F5F0E1;
+}
+
+.button_backoff{
+  width: 5vw;
+  height: 3vw;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* (A) TIMELINE CONTAINER */
+.vtl {
+  /* (A1) RELATIVE POSITION REQUIRED TO PROPERLY POSITION THE TIMELINE */
+  position: relative;
+ 
+  /* (A2) RESERVE MORE SPACE TO THE LEFT FOR THE TIMELINE */
+  padding: 10px 10px 10px 50px;
+ 
+  /* (A3) OPTIONAL WIDTH RESTRICTION */
+  max-width: 400px;
+}
+.vtl, .vtl * { box-sizing: border-box; }
+
+/* (B) DRAW VERTICAL LINE USING ::BEFORE */
+.vtl::before {
+  /* (B1) VERTICAL LINE */
+  content: "";
+  width: 5px;
+  background-color: #de421a;
+ 
+  /* (B2) POSITION TO THE LEFT */
+  position: absolute;
+  top: 0; bottom: 0; left: 15px;
+}
+
+/* (C) COSMETICS FOR EVENTS */
+div.event {
+  padding: 20px 30px;
+  background-color: #ffebeb;
+  position: relative;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+/* (D) COSMETICS FOR EVENT DATE & TEXT */
+p.date {
+  font-size: 1.1em;
+  font-weight: 700;
+  color: #ff6a00;
+}
+p.txt {
+  margin: 10px 0 0 0;
+  color: #222;
+}
+
+/* (E) EVENT "SPEECH BUBBLE CALLOUT" */
+div.event::before {
+  /* (E1) "MAGIC TRIANGLE" */
+  content: "";
+  border: 10px solid transparent;
+  border-right-color: #ffebeb;
+  border-left: 0;
+ 
+   /* (E2) POSITION TO THE LEFT */
+  position: absolute;
+  top: 20%; left: -10px;
+}
+
+/* (F) CIRCLE ON TIMELINE */
+div.event::after {
+  /* (F1) "MAGIC CIRCLE" */
+  content: "";
+  background: #fff;
+  border: 4px solid #DE421A;
+  width: 16px; height: 16px;
+  border-radius: 50%;
+ 
+  /* (F2) POSITION TO THE LEFT */
+  position: absolute;
+  top: 20%; left: -44px;
+}
+
+
+
+
+
+/* (A) TIMELINE CONTAINER */
+.alt-vtl {
+    /* (A1) RELATIVE POSITION REQUIRED TO PROPERLY POSITION THE TIMELINE */
+    position: relative;
+   
+    /* (A2) WIDTH RESTRICTION & CENTER ON PAGE */
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* (B) DRAW TIMELINE USING ::BEFORE */
+  .alt-vtl::before {
+    /* (B1) VERTICAL LINE */
+    content: "";
+    width: 5px;
+    background-color: #1da1ff;
+   
+    /* (B2) POSITION IN THE MIDDLE */
+    position: absolute;
+    top: 0; bottom: 0; left: 50%;
+  }
+  
+  /* (C) EVENTS */
+  div.alt-event {
+    /* (C1) COSMETICS */
+    background-color: #dbf0ff;
+    border-radius: 6px;
+   
+    /* (C2) DIMENSIONS */
+    padding: 20px 30px;
+    width: 45%;
+    margin-bottom: 10px;
+   
+    /* (C3) POSITION - DEFAULT LEFT SIDE */
+    position: relative;
+    left: 0;
+  }
+   
+  /* (C4) CHANGE EVENT POSITION TO RIGHT SIDE */
+  div.right { left: 55%; }
+  
+  /* (D) COSMETICS FOR EVENT DATE & TEXT */
+  p.date {
+    font-size: 1.1em;
+    font-weight: 700;
+    color: #ff6a00;
+  }
+  p.txt {
+    margin: 10px 0 0 0;
+    color: #222;
+  }
+  
+  /* (E) EVENT "SPEECH BUBBLE CALLOUT" */
+  /* (E1) SHARED */
+  div.alt-event::before, div.alt-event.right::before {
+    content: "";
+    border: 10px solid transparent;
+    position: absolute;
+  }
+   
+  /* (E2) FOR EVENTS ON THE LEFT */
+  div.alt-event::before {
+    /* (E2-1) "MAGIC TRIANGLE" */
+    border-left-color: #dbf0ff;
+    border-right: 0;
+   
+    /* (E2-2) POSITION TRIANGLE ON THE RIGHT */
+    left: 100%; top: 20%;
+  }
+   
+  /* (E3) FOR EVENTS ON THE RIGHT */
+  div.alt-event.right::before {
+    /* (E3-1) "MAGIC TRIANGLE" */
+    border-right-color: #dbf0ff;
+    border-left: 0;
+   
+    /* (E3-2) POSITION TRIANGLE ON THE LEFT */
+    left: auto; right: 100%; top: 20%;
+  }
+   
+  /* (F) EVENT CIRCLE ON TIMELINE */
+  /* (F1) SHARED */
+  div.alt-event::after, div.alt-event.right::after {
+    /* (F1-1) "MAGIC CIRCLE" */
+    content: "";
+    background: #fff;
+    border: 4px solid #1da1ff;
+    width: 16px; height: 16px;
+    border-radius: 50%;
+   
+    /* (F1-2) POSITION */
+    position: absolute;
+  }
+   
+  /* (F2) POSITION TO THE LEFT */
+  div.alt-event::after { top: 20%; left: 108%; }
+   
+  /* (F3) POSITION TO THE RIGHT */
+  div.alt-event.right::after { top: 20%; left: auto; right: 105%; }

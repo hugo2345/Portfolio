@@ -1,0 +1,206 @@
+/*ALL*/
+
+body {
+  margin: 0;
+}
+
+/*CONNECTION*/
+
+#form{
+  margin-top: 85px;
+}
+
+#MessaConnexion h1{
+  margin: 70px 0px 0px 440px;
+  font-size: 50px;
+}
+
+#txtChoiseLog{
+  font-size: 20px;
+  margin: 40px 0px 0px 520px;
+}
+
+#MessaConnexion span{
+  color: red;
+  text-decoration: underline;
+}
+
+#MessaConnexion input{
+  width: 200px;
+  height: 25px;
+  margin-bottom: 10px;
+}
+
+#MessaConnexion label{ 
+  margin: 0px 0px 0px 600px;
+  font-size: 20px;
+}
+
+#passRegister2{
+  width: 88px;
+  display:inline-block;
+}
+
+.button{
+  margin-left: 700px;
+  width: 100px !important;
+}
+
+.messageErreur{
+  font-size: 70px;
+  color: red;
+  margin: 5px 0px 0px 250px;
+}
+
+/*Welcome*/
+#bodyGoToHome{
+  width: 90em;
+  height: 43em;
+  padding-top: 20px;
+}
+
+#titleGoToHome{
+  color: rgb(67, 227, 39);
+  margin: 0px 0px 0px 160px !important;
+}
+
+/*HOME*/
+#home{
+  display: flex;
+	flex-direction: row;
+  background-color: black;
+
+}
+
+#navbar{
+  border-right: 2px solid #777777;
+}
+
+#navbar ul {
+  list-style-type: none;
+  overflow: auto;
+  height: 100%;
+  margin: 0;
+  padding: 0px 0px 0px 50px;
+  width: 380px;
+}
+
+#firstLi{
+  margin-top: 200px !important;
+}
+
+#navbar li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 30px;
+  margin: 0px 0px 50px 80px;
+}
+
+#content{
+  display: flex;
+	flex-direction: column;
+  color: white;
+  width: 50vw; /* 50% de la largeur de l'écran */
+  border-right: 2px solid #777777;
+}
+
+#me{
+  display: flex;
+	flex-direction: row;
+  border-bottom: 2px solid #777777;
+}
+
+#titleMe{
+  font-size: 25px;
+  margin-left: 145px;
+}
+
+#addMessPub{
+  border-bottom: 2px solid #777777;
+  background-color: red;
+}
+
+#formAddMessPub{
+  display: flex;
+	flex-direction: column;
+}
+
+#buttonConnect{
+  all: unset;
+}
+
+#flow{
+  border-bottom: 2px solid #777777;
+}
+
+#messPub{
+  border-bottom: 2px solid #777777;
+  display: flex;
+	flex-direction: column;
+}
+
+#infoMessPub{
+  display: flex;
+	flex-direction: row;
+}
+
+#infoMessPub h1{
+  margin-left: 30px;
+}
+
+#infoMessPub h2{
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+#messPub p{
+  margin-top: 5px;
+  margin-left: 15px;
+  font-size: 25px;
+}
+
+#colorChoise{
+  border-bottom: 2px solid #777777;
+  padding-bottom: 20px;
+}
+
+#colorChoise h2{
+  margin-left: 80px;
+  font-size: 35px;
+}
+
+.circle-button {
+  width: 60px;
+  height:60px;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 30px 0px 0px 110px;
+  border: solid 2px white;
+}
+
+#choise1{
+  background-color: #0cff0c;
+}
+
+#choise2{
+  background-color: #8f008f;
+}
+
+#choise3{
+  background-color: #0011ff;
+}
+
+#choise4{
+  background-color: #ff0809;
+}
+
+/*JS*/
+
+.hook{
+  display: none;
+}
